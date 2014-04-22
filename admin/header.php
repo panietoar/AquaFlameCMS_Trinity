@@ -21,6 +21,7 @@
           <li><a href="#a"><span>Web Functions</span></a></li>
 	        <li><a href="#b"><span>Server Functions</span></a></li>
 	        <li><a href="#c"><span>Account Services</span></a></li>
+	        <li><a href="#d"><span>Gestion GM</span></a></li>
         </ul>
         <div id="tabsPanel">
           <div id="a" class="tab_content">
@@ -71,6 +72,15 @@
               <div class='right_scroll'><img src='images/rightArrow.png' alt="" /></div>
             </div>
           </div>
+         <div id="a" class="tab_content">
+			 <div class='carousel_container'>
+				<div class='carousel_inner'>
+					<ul class='carousel_ul3'>
+						<li><span rel="tooltip" title="<strong style='color:#00B6FF'>Ver GMs</strong>" style="color:#ff9200;font-weight:bold;font-size:14px;"><a class="ico5" href='gms.php'></a></span></li>
+					</u>
+				</div>
+			 </div>
+		 </div>
         <!--Tab End-->  
       </div>
       <img src="images/shadow.png" class="shadow" alt="" />
