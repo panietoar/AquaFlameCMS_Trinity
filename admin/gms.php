@@ -82,9 +82,9 @@ $('#checkall').toggleClass('clicked');
       <ul id="lst">
         <li>
 	      <p class="editHead"><strong>Edit/Delete</strong></p>
-          <p class="title"><strong>Cuenta</strong></p>
-          <p class="descripHead">Nivel GM</p>
-          <p class="incHead">Ultimo login</p>
+          <p class="account"><strong>Cuenta</strong></p>
+          <p class="levelHead">Nivel GM</p>
+          <p class="lastHead">Ultimo login</p>
         </li>
            <?php
             mysql_select_db($server_db) or die (mysql_error());
@@ -93,9 +93,9 @@ $('#checkall').toggleClass('clicked');
               echo'
             <li>
             <p class="edit"><a href="editgm.php?id='.$new['id'].'"><img src="images/editIco.png" alt="" /></a> <a href="deletegm.php?id='.$new['id'].'"><img src="images/deletIco.png" alt="" /></a></p>
-            <p class="title">'.strip_tags($new['usuario']).' ...</p>
-            <p class="descrip">'strip_tags($new['nivel_gm']).' ...</p>
-            <p class="inc">'.$new['ultimo_login'].'</p>
+            <p class="account">'.strip_tags($new['usuario']).'</p>
+            <p class="level">'.strip_tags($new['nivel_gm']).'</p>
+            <p class="last">'.$new['ultimo_login'].'</p>
             </li>';
             }?>
       </ul>

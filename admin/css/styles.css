@@ -738,6 +738,15 @@ body {
 	color:#464646;
 	line-height:40px
 }
+#content .datalist ul li p.	 {
+	width:550px;
+	height:43px;
+	float:left;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	color:#442c83;
+	line-height:40px
+}
 #content .datalist ul li p.descrip {
 	width:550px;
 	height:43px;
@@ -779,6 +788,57 @@ body {
 	line-height:40px;
 	font-weight:bold
 }
+#content .datalist ul li p.level {
+	width:550px;
+	height:43px;
+	float:left;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	color:#442c83;
+	line-height:40px
+}
+#content .datalist ul li p.levelHead {
+	width:550px;
+	height:43px;
+	float:left;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	color:#464646;
+	line-height:40px;
+	font-weight:bold
+}
+#content .datalist ul li p.account {
+    color: rgb(70, 70, 70);
+    float: left;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 12px;
+    height: 43px;
+    line-height: 40px;
+    margin-left: 50px;
+    width: 420px;
+}
+#content .datalist ul li p.last {
+    color: rgb(103, 131, 44);
+    float: left;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 12px;
+    height: 43px;
+    line-height: 40px;
+    margin-left: 20px;
+    width: 140px;
+}
+#content .datalist ul li p.lastHead {
+	width:80px;
+	height:43px;
+	float:left;
+	margin-right:50px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	color:#464646;
+	line-height:40px;
+	font-weight:bold
+}
+
 #content .datalist ul li p.dec {
 	width:90px;
 	height:43px;
